@@ -1,0 +1,842 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Rokid Android SDK 接入指南 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../3-LinuxDeviceGuide/linux_openvoice_guide.html" />
+    
+    
+    <link rel="prev" href="get-the-certification-file.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Rokid 开发者社区文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开发者社区介绍</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../rokid-community-introduction.html">
+            
+                <a href="../../rokid-community-introduction.html">
+            
+                    
+                    Rokid开发者社区介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">快速开始</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../1-GetStarted/rokid-skill-kit-introduction.html">
+            
+                <a href="../../1-GetStarted/rokid-skill-kit-introduction.html">
+            
+                    
+                    开始开发Rokid技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../1-GetStarted/enable-rokid-voice.html">
+            
+                <a href="../../1-GetStarted/enable-rokid-voice.html">
+            
+                    
+                    开始接入Rokid语音
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开发Rokid技能</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../1-SkillsKit/skill-sample-coffee.html">
+            
+                <a href="../1-SkillsKit/skill-sample-coffee.html">
+            
+                    
+                    开始创建第一个技能：我要喝咖啡
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../1-SkillsKit/define-voice-interaction.html">
+            
+                <a href="../1-SkillsKit/define-voice-interaction.html">
+            
+                    
+                    为技能定义语音交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../1-SkillsKit/show_skill_information.html">
+            
+                <a href="../1-SkillsKit/show_skill_information.html">
+            
+                    
+                    如何展示您的技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../1-SkillsKit/rokid-bult-in-slots.html">
+            
+                <a href="../1-SkillsKit/rokid-bult-in-slots.html">
+            
+                    
+                    Rokid 预定义词表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../1-SkillsKit/rokid-regular-expression.html">
+            
+                <a href="../1-SkillsKit/rokid-regular-expression.html">
+            
+                    
+                    Rokid NLP正则表达式使用指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../1-SkillsKit/rokid-oauth.html">
+            
+                <a href="../1-SkillsKit/rokid-oauth.html">
+            
+                    
+                    Rokid OAuth 指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../1-SkillsKit/rokid-js-engine-tutorial.html">
+            
+                <a href="../1-SkillsKit/rokid-js-engine-tutorial.html">
+            
+                    
+                    Rokid JS Engine 使用指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="../1-SkillsKit/ssml-document.html">
+            
+                <a href="../1-SkillsKit/ssml-document.html">
+            
+                    
+                    在技能中使用SSML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="../1-SkillsKit/rokid-voice-interaction-guidelines.html">
+            
+                <a href="../1-SkillsKit/rokid-voice-interaction-guidelines.html">
+            
+                    
+                    Rokid 语音交互设计指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="../1-SkillsKit/skill-sample.html">
+            
+                <a href="../1-SkillsKit/skill-sample.html">
+            
+                    
+                    Rokid 示例技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">为设备开启语音交互</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="get-the-certification-file.html">
+            
+                <a href="get-the-certification-file.html">
+            
+                    
+                    获取认证文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.2" data-path="rokid-sdk-tutorial.html">
+            
+                <a href="rokid-sdk-tutorial.html">
+            
+                    
+                    Rokid Android SDK 接入指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Linux 设备接入</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../3-LinuxDeviceGuide/linux_openvoice_guide.html">
+            
+                <a href="../3-LinuxDeviceGuide/linux_openvoice_guide.html">
+            
+                    
+                    Linux 设备开发引导
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">API REFERENCE</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../../3-ApiReference/cloud-app-development-protocol_cn.html">
+            
+                <a href="../../3-ApiReference/cloud-app-development-protocol_cn.html">
+            
+                    
+                    Rokid 技能协议文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../../3-ApiReference/rokid-interceptor.html">
+            
+                <a href="../../3-ApiReference/rokid-interceptor.html">
+            
+                    
+                    拦截器接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../../3-ApiReference/openvoice-api.html">
+            
+                <a href="../../3-ApiReference/openvoice-api.html">
+            
+                    
+                    Rokid 接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../../3-ApiReference/rokid-client-sdk-doc.html">
+            
+                <a href="../../3-ApiReference/rokid-client-sdk-doc.html">
+            
+                    
+                    Rokid 客户端 SDK 文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="../../3-ApiReference/siren-api.html">
+            
+                <a href="../../3-ApiReference/siren-api.html">
+            
+                    
+                    Rokid 前端降噪模块 API文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">设计语音产品</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="rokid-hardware-design-guide.html">
+            
+                <a href="rokid-hardware-design-guide.html">
+            
+                    
+                    Rokid 语音产品硬件设计指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="rokid-hardware-ux-design-guidelines.html">
+            
+                <a href="rokid-hardware-ux-design-guidelines.html">
+            
+                    
+                    Rokid 硬件交互设计指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">智能家居开发</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" >
+            
+                <a target="_blank" href="https://rokid.github.io/rokid-homebase-docs/">
+            
+                    
+                    Rokid 智能家居开发文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">协议条款</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../../4-TermsAndAgreements/rokid-skill-release-standard.html">
+            
+                <a href="../../4-TermsAndAgreements/rokid-skill-release-standard.html">
+            
+                    
+                    技能发布标准
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../../4-TermsAndAgreements/community-service-agreement.html">
+            
+                <a href="../../4-TermsAndAgreements/community-service-agreement.html">
+            
+                    
+                    服务协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../../4-TermsAndAgreements/community-disclaimer.html">
+            
+                <a href="../../4-TermsAndAgreements/community-disclaimer.html">
+            
+                    
+                    免责声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">支持</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" >
+            
+                <a target="_blank" href="https://developer-forum.rokid.com/">
+            
+                    
+                    Rokid讨论区
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" >
+            
+                <a target="_blank" href="https://developer.rokid.com/">
+            
+                    
+                    Rokid开发者社区官网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" >
+            
+                <a target="_blank" href="https://www.rokid.com/">
+            
+                    
+                    Rokid 官网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4" >
+            
+                <a target="_blank" href="https://www.rokid.com/smarthome/">
+            
+                    
+                    Rokid 智能家居
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Rokid Android SDK 接入指南</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#rokid-open-voice-sdk&#x5FEB;&#x901F;&#x96C6;&#x6210;&#x6307;&#x5357;"><b></b>Rokid Open Voice SDK&#x5FEB;&#x901F;&#x96C6;&#x6210;&#x6307;&#x5357;</a></li><ul><li><span class="title-icon "></span><a href="#&#x7B80;&#x4ECB;"><b></b>&#x7B80;&#x4ECB;</a></li><li><span class="title-icon "></span><a href="#1-&#x76EE;&#x5F55;&#x7ED3;&#x6784;"><b></b>1 &#x76EE;&#x5F55;&#x7ED3;&#x6784;</a></li><li><span class="title-icon "></span><a href="#2-&#x914D;&#x7F6E;"><b></b>2 &#x914D;&#x7F6E;</a></li><li><span class="title-icon "></span><a href="#3-&#x5904;&#x7406;&#x6743;&#x9650;&#x95EE;&#x9898;"><b></b>3 &#x5904;&#x7406;&#x6743;&#x9650;&#x95EE;&#x9898;</a></li><li><span class="title-icon "></span><a href="#4-&#x6DFB;&#x52A0;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x9879;"><b></b>4 &#x6DFB;&#x52A0;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x9879;</a></li><li><span class="title-icon "></span><a href="#5-&#x7F16;&#x8BD1;"><b></b>5 &#x7F16;&#x8BD1;</a></li><li><span class="title-icon "></span><a href="#6-&#x8C03;&#x8BD5;"><b></b>6 &#x8C03;&#x8BD5;</a></li></ul></ul></div><a href="#rokid-open-voice-sdk&#x5FEB;&#x901F;&#x96C6;&#x6210;&#x6307;&#x5357;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="rokid-open-voice-sdk&#x5FEB;&#x901F;&#x96C6;&#x6210;&#x6307;&#x5357;"><a name="rokid-open-voice-sdk&#x5FEB;&#x901F;&#x96C6;&#x6210;&#x6307;&#x5357;" class="anchor-navigation-ex-anchor" href="#rokid-open-voice-sdk&#x5FEB;&#x901F;&#x96C6;&#x6210;&#x6307;&#x5357;"><i class="fa fa-link" aria-hidden="true"></i></a>Rokid Open Voice SDK&#x5FEB;&#x901F;&#x96C6;&#x6210;&#x6307;&#x5357;</h1>
+<h2 id="&#x7B80;&#x4ECB;"><a name="&#x7B80;&#x4ECB;" class="anchor-navigation-ex-anchor" href="#&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7B80;&#x4ECB;</h2>
+<p>Rokid&#x5F00;&#x653E;&#x5E73;&#x53F0;SDK&#x5305;&#x542B;Siren&#x3001;NLP&#x3001;ASR&#x3001;TTS&#x51E0;&#x5927;&#x6A21;&#x5757;&#x3002;&#x8981;&#x4F7F;&#x7528;Rokid&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x7684;SDK&#xFF0C;&#x9996;&#x5148;&#x9700;&#x8981;&#x6709;&#x4E00;&#x5957; <a href="https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/" target="_blank">Android</a> &#x6E90;&#x7801;&#xFF0C;&#x7136;&#x540E;&#x4E0B;&#x8F7D;&#x4EE5;&#x4E0B;SDK&#x6A21;&#x5757;&#xFF1A;</p>
+<ul>
+<li><a href="https://github.com/Rokid/rokid-blacksiren.git" target="_blank">rokid-blacksiren</a> &#x524D;&#x7AEF;&#x62FE;&#x97F3;&#x964D;&#x566A;&#xFF0C;&#x5BFB;&#x5411;&#xFF0C;&#x97F3;&#x5899;</li>
+<li><a href="https://github.com/Rokid/rokid-openvoice-sdk.git" target="_blank">rokid-openvoice-sdk</a> &#x5305;&#x542B;NLP&#x8BED;&#x97F3;&#x8BC6;&#x522B;&#xFF0C;&#x8BED;&#x4E49;&#x7406;&#x89E3;&#xFF1B;ASR&#x8BED;&#x97F3;&#x8BC6;&#x522B;&#xFF1B;TTS&#x8BED;&#x97F3;&#x5408;&#x6210;</li>
+<li><a href="https://github.com/Rokid/rokid-openvoice-sdk-deps-poco.git" target="_blank">rokid-openvoice-sdk-deps-poco</a>  SDK&#x4F9D;&#x8D56;</li>
+<li><a href="https://github.com/Rokid/rokid-openvoice-sdk-deps-protobuf" target="_blank">rokid-openvoice-sdk-deps-protobuf</a> (Android 4.4 &#x4E0D;&#x9700;&#x8981;)</li>
+</ul>
+<p>Android 6.0 &#x4F7F;&#x7528; </p>
+<pre><code>git clone https://github.com/Rokid/rokid-openvoice-sdk-deps-protobuf -b android23
+</code></pre><p>&#x547D;&#x4EE4;&#x83B7;&#x53D6;protobuf&#x3002;&#x53E6;&#x5916;&#xFF0C;&#x8FD9;&#x91CC;&#x4E3A;&#x5927;&#x5BB6;&#x63D0;&#x4F9B;&#x4E86;<a href="https://github.com/Rokid/rokid-openvoice-sample-android.git" target="_blank">rokid-openvoice-sample-android</a>&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#x5E2E;&#x5FD9;&#x5927;&#x5BB6;&#x5FEB;&#x901F;&#x96C6;&#x6210;&#x3002;</p>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x4F1A;&#x4ECE;&#x4EE5;&#x4E0B;6&#x4E2A;&#x6B65;&#x9AA4;&#x5B8C;&#x6574;&#x8BB2;&#x8FF0;&#x5982;&#x4F55;&#x4E3A;&#x81EA;&#x5DF1;&#x7684;&#x9879;&#x76EE;&#x90E8;&#x7F72;Rokid&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x7684;SDK&#xFF1A;</p>
+<ul>
+<li><a href="#1-&#x76EE;&#x5F55;&#x7ED3;&#x6784;">1 &#x76EE;&#x5F55;&#x7ED3;&#x6784;</a></li>
+<li><a href="#2-&#x914D;&#x7F6E;">2 &#x914D;&#x7F6E;</a></li>
+<li><a href="#3-&#x5904;&#x7406;&#x6743;&#x9650;&#x95EE;&#x9898;">3 &#x5904;&#x7406;&#x6743;&#x9650;&#x95EE;&#x9898;</a></li>
+<li><a href="#4-&#x6DFB;&#x52A0;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x9879;">4 &#x6DFB;&#x52A0;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x9879;</a></li>
+<li><a href="#5-&#x7F16;&#x8BD1;">5 &#x7F16;&#x8BD1;</a></li>
+<li><a href="#6-&#x8C03;&#x8BD5;">6 &#x8C03;&#x8BD5;</a></li>
+</ul>
+<h2 id="1-&#x76EE;&#x5F55;&#x7ED3;&#x6784;"><a name="1-&#x76EE;&#x5F55;&#x7ED3;&#x6784;" class="anchor-navigation-ex-anchor" href="#1-&#x76EE;&#x5F55;&#x7ED3;&#x6784;"><i class="fa fa-link" aria-hidden="true"></i></a>1 &#x76EE;&#x5F55;&#x7ED3;&#x6784;</h2>
+<p><img src="images/menu.png" alt=""></p>
+<p><strong>&#x547D;&#x540D;&#x5EFA;&#x8BAE;&#x4E0E;&#x4E0A;&#x56FE;&#x4E00;&#x81F4;</strong></p>
+<p> rokid-openvoice-sample-android &#x4E0E;&#x6574;&#x4E2A;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x76F8;&#x5173;&#xFF0C;&#x5176;&#x4E2D;&#x5305;&#x542B;&#x4E00;&#x4E2A;C&#x8FDB;&#x7A0B;&#x548C;&#x4E00;&#x4E2A;Java&#x8FDB;&#x7A0B;&#xFF0C;&#x4EE5;&#x53CA;MIC HAL&#x3002;C&#x8FDB;&#x7A0B;&#x7528;&#x4E8E;&#x4E3A;Siren&#x63D0;&#x4F9B;pcm&#x6D41;&#xFF0C;&#x7136;&#x540E;&#x4F20;&#x9012;&#x7531;Siren&#x6EE4;&#x6CE2;&#x964D;&#x566A;&#x8FC7;&#x7684;&#x7EAF;&#x51C0;&#x8BED;&#x97F3;&#x7ED9;NLP&#x6216;ASR&#xFF0C;NLP&#x6216;ASR&#x7ECF;&#x8FC7;&#x4E91;&#x7AEF;&#x5904;&#x7406;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF0C;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x6700;&#x91CD;&#x8981;&#x7684;&#x70B9;&#x5C31;&#x662F;&#x7EF4;&#x6301;Siren&#x4E0E;NLP&#x6216;ASR&#x4E4B;&#x95F4;&#x7684;&#x72B6;&#x6001;&#x3002;Java&#x8FDB;&#x7A0B;&#x7528;&#x4E8E;&#x89E3;&#x6790;NLP&#x6216;ASR&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF0C;&#x5904;&#x7406;&#x5E94;&#x7528;&#x5C42;&#x903B;&#x8F91;&#x3002;</p>
+<h2 id="2-&#x914D;&#x7F6E;"><a name="2-&#x914D;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#2-&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>2 &#x914D;&#x7F6E;</h2>
+<blockquote>
+<p>1&#x3001;&#x8FDB;&#x5165;<a href="https://developer.rokid.com/" target="_blank">Rokid&#x5F00;&#x653E;&#x5E73;&#x53F0;</a>&#x7533;&#x8BF7;Rokid&#x8D26;&#x53F7;&#xFF0C;&#x5DF2;&#x7ECF;&#x6709;Rokid&#x8D26;&#x53F7;&#x7684;&#x540C;&#x5B66;&#x53EF;&#x76F4;&#x63A5;&#x767B;&#x5F55;&#xFF08;&#x4F46;&#x9700;&#x8FDB;&#x884C;&#x90E8;&#x5206;&#x4FE1;&#x606F;&#x8865;&#x5168;&#xFF09;&#x3002;</p>
+<p>2&#x3001;&#x767B;&#x5F55;&#x540E;&#x70B9;&#x9009;&#x300C;&#x8BED;&#x97F3;&#x63A5;&#x5165;&#x300D;&#x8FDB;&#x884C;&#x8BBE;&#x5907;&#x8BA4;&#x8BC1;&#x4FE1;&#x606F;&#x7533;&#x8BF7;&#x3002;</p>
+<p>3&#x3001;&#x5177;&#x4F53;&#x505A;&#x6CD5;&#xFF1A;&#x8BED;&#x97F3;&#x63A5;&#x5165; &gt; &#x521B;&#x5EFA;&#x65B0;&#x8BBE;&#x5907; &gt; &#x586B;&#x5199;&#x8BBE;&#x5907;&#x540D;&#x79F0; &gt; &#x521B;&#x5EFA;&#x8BA4;&#x8BC1;&#x6587;&#x4EF6;&#x3002;&#x4E4B;&#x540E;&#x60A8;&#x5C06;&#x83B7;&#x5F97;&#xFF1A;</p>
+<p>account_id&#x3001;
+device_type_id&#x3001;
+device_id&#x3001;
+secret&#x3001;key</p>
+</blockquote>
+<p>&#x901A;&#x8FC7;&#x4EE5;&#x4E0A;&#x4FE1;&#x606F;&#xFF0C;&#x60A8;&#x5C31;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;Rokid&#x8BED;&#x97F3;&#x670D;&#x52A1;&#x4E86;&#xFF0C;&#x7136;&#x540E;&#x628A;&#x7533;&#x8BF7;&#x5F97;&#x5230;&#x7684;&#x8D26;&#x53F7;&#x4FE1;&#x606F;&#x5199;&#x5165;&#x5230; <code>/rokid-openvoice-sample-android/etc/openvoice-profile.json</code>&#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<pre><code>{
+    &apos;host&apos;: &apos;apigwws.open.rokid.com&apos;,
+    &apos;port&apos;: &apos;443&apos;,
+    &apos;branch&apos;: &apos;/api&apos;,
+    &apos;ssl_roots_pem&apos;: &apos;/system/etc/roots.pem&apos;,
+    &apos;key&apos;: &apos;your_key&apos;,
+    &apos;device_type_id&apos;: &apos;your_device_type_id&apos;,
+    &apos;device_id&apos;: &apos;your_device_id&apos;,
+    &apos;api_version&apos;: &apos;1&apos;,
+    &apos;secret&apos;: &apos;your_secret&apos;,
+    &apos;codec&apos;: &apos;opu&apos;
+}
+</code></pre><p>&#x8BF7;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x5185;&#x5BB9;&#x5230; <code>/device/xxxx/p230/p230.mk</code>&#xFF0C;&#x6BCF;&#x4E2A;&#x4EBA;&#x7684;&#x8DEF;&#x5F84;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;&#x8FD9;&#x4E00;&#x6B65;&#x662F;&#x4E3A;&#x4E86;&#x8BA9;SDK&#x7F16;&#x8BD1;&#x51FA;&#x6765;&#x7684;&#x4E1C;&#x897F;&#x6253;&#x5305;&#x8FDB;system.img&#x3002;</p>
+<p><strong>&#x6CE8;&#x610F;SDK&#x5B58;&#x653E;&#x4F4D;&#x7F6E;</strong></p>
+<pre><code>include openvoice/rokid-openvoice-sample-android/device/xxxx/p230/openvoice.mk
+</code></pre><p>&#x5982;&#x679C;&#x4F60;&#x662F;Android 5.0 &#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x4F60;&#x8FD8;&#x9700;&#x8981;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x5185;&#x5BB9;&#xFF0C;&#x8FD9;&#x4E00;&#x6B65;&#x540E;&#x9762;&#x4F1A;&#x60F3;&#x529E;&#x6CD5;&#x53BB;&#x6389;&#xFF0C;&#x4E0D;&#x8FC7;&#x76EE;&#x524D;&#x8FD8;&#x662F;&#x5FC5;&#x4E0D;&#x53EF;&#x5C11;&#x7684;</p>
+<pre><code>/build/core/definitions.mk &#x6700;&#x540E;&#x4E00;&#x884C;&#x6DFB;&#x52A0;&#x4E0B;&#x9762;&#x8FD9;&#x4E00;&#x53E5;
+
+include openvoice/rokid-openvoice-sample-android/build/core/definitions.mk
+</code></pre><h2 id="3-&#x5904;&#x7406;&#x6743;&#x9650;&#x95EE;&#x9898;"><a name="3-&#x5904;&#x7406;&#x6743;&#x9650;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#3-&#x5904;&#x7406;&#x6743;&#x9650;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>3 &#x5904;&#x7406;&#x6743;&#x9650;&#x95EE;&#x9898;</h2>
+<p>Android &#x57FA;&#x4E8E;Linux&#x5F15;&#x5165;&#x4E86;selinux&#xFF0C;&#x8FD9;&#x662F;&#x4E13;&#x95E8;&#x4E3A;Linux&#x8BBE;&#x8BA1;&#x7684;&#x4E00;&#x5957;&#x5B89;&#x5168;&#x673A;&#x5236;&#x3002;&#x5B83;&#x6709;&#x4E09;&#x79CD;&#x5DE5;&#x4F5C;&#x6A21;&#x5F0F;&#xFF0C;Android4.2 &#x4EE5;&#x524D;&#x4E00;&#x76F4;&#x5904;&#x4E8E;Permission&#x6A21;&#x5F0F;&#xFF0C;&#x4E4B;&#x540E;&#x4FBF;&#x5DE5;&#x4F5C;&#x5728;enforcing&#x6A21;&#x5F0F;&#xFF0C;&#x8FD9;&#x5C31;&#x9700;&#x8981;&#x6211;&#x4EEC;&#x6839;&#x636E;selinux&#x7684;&#x89C4;&#x8303;&#x6DFB;&#x52A0;&#x76F8;&#x5E94;&#x7684;.te&#x6587;&#x4EF6;&#xFF0C;&#x5EFA;&#x8BAE;&#x5728;&#x5F00;&#x53D1;&#x9636;&#x6BB5;&#x8BBE;&#x56DE;Permission&#xFF0C;&#x7701;&#x6389;&#x4E00;&#x5927;&#x5806;&#x6743;&#x9650;&#x95EE;&#x9898;&#x3002;</p>
+<pre><code>/system/core/init/init.cpp 
+
+static selinux_enforcing_status selinux_status_from_cmdline() {
+    selinux_enforcing_status status = SELINUX_ENFORCING;
+    &#x4FEE;&#x6539;&#x4E3A;
+    selinux_enforcing_status status = SELINUX_PERMISSIVE;
+}  
+</code></pre><h2 id="4-&#x6DFB;&#x52A0;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x9879;"><a name="4-&#x6DFB;&#x52A0;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x9879;" class="anchor-navigation-ex-anchor" href="#4-&#x6DFB;&#x52A0;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x9879;"><i class="fa fa-link" aria-hidden="true"></i></a>4 &#x6DFB;&#x52A0;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x9879;</h2>
+<p>&#x8FDB;&#x5165;&#x5230; <code>/device/xxxx/common/products/mbox/init.xxxx.rc</code>&#x52A0;&#x5165;&#x5982;&#x4E0B;&#x5185;&#x5BB9;&#xFF0C;&#x6BCF;&#x4E2A;&#x4EBA;&#x7684;&#x76EE;&#x5F55;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;&#x56E0;&#x4E3A;rokid-openvoice-sample-android&#x4E2D;&#x7684;C&#x8FDB;&#x7A0B;&#x7F16;&#x8BD1;&#x51FA;&#x6765;&#x4E3A;runtime&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x52A0;&#x5728;&#x8FD9;&#x91CC;&#xFF0C;&#x8BA9;init&#x8FDB;&#x7A0B;&#x5E2E;&#x6211;&#x4EEC;&#x542F;&#x52A8;&#x3002;</p>
+<pre><code>service runtime /system/bin/runtime
+    class main
+    user root
+    group root root 
+</code></pre><h2 id="5-&#x7F16;&#x8BD1;"><a name="5-&#x7F16;&#x8BD1;" class="anchor-navigation-ex-anchor" href="#5-&#x7F16;&#x8BD1;"><i class="fa fa-link" aria-hidden="true"></i></a>5 &#x7F16;&#x8BD1;</h2>
+<p>&#x5982;&#x679C;&#x4F60;&#x7684;&#x5F00;&#x53D1;&#x677F;&#x4F7F;&#x7528;&#x7684;&#x662F;USB MIC&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x5B9A;&#x4E49;&#x5B8F; <strong>USB_AUDIO_DEVICE</strong>&#xFF0C;&#x5177;&#x4F53;&#x64CD;&#x4F5C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>/rokid-openvoice-sample-android/Android.mk
+
+LOCAL_CPPFLAGS += -DUSB_AUDIO_DEVICE
+</code></pre><p>&#x5982;&#x679C;&#x4F60;&#x4E0D;&#x4F7F;&#x7528;Java&#x6216;TTS&#x63A5;&#x53E3;&#xFF0C;&#x8BF7;&#x4FEE;&#x6539;&#x5982;&#x4E0B;&#x5185;&#x5BB9;&#xFF0C;&#x5426;&#x5219;&#x4F60;&#x9700;&#x8981;&#x4F7F;&#x7528; </p>
+<pre><code>git clone https://github.com/Rokid/rokid-openvoice-sdk-deps-fastjson.git
+</code></pre><p>&#x83B7;&#x53D6;&#x4F9D;&#x8D56;Jar&#x5305;&#x3002;</p>
+<pre><code>/rokid-openvoice-sdk/Android.mk
+
+include $(LOCAL_PATH)/JavaLibrary.mk
+&#x4FEE;&#x6539;&#x4E3A;
+#include $(LOCAL_PATH)/JavaLibrary.mk
+</code></pre><p><strong>&#x5355;&#x7F16; &#xFF1A;</strong></p>
+<p>&#x5148;&#x7F16;&#x8BD1; Andorid&#xFF0C;&#x7136;&#x540E;&#x4F7F;&#x7528;mm&#x4F9D;&#x6B21;&#x7F16;&#x8BD1;&#xFF1A;rokid-openvoice-sdk-deps-protobuf&#xFF0C;rokid-openvoice-sdk-deps-poco&#xFF0C;rokid-openvoice-sdk&#xFF0C;rokid-blacksiren&#xFF0C;rokid-openvoice-sample-android&#x3002;</p>
+<p><strong>&#x6574;&#x7F16; &#xFF1A;</strong></p>
+<pre><code>./build/envsetup.sh
+lunch &lt;your config&gt;
+make aprotoc -j8
+make -j8
+</code></pre><h2 id="6-&#x8C03;&#x8BD5;"><a name="6-&#x8C03;&#x8BD5;" class="anchor-navigation-ex-anchor" href="#6-&#x8C03;&#x8BD5;"><i class="fa fa-link" aria-hidden="true"></i></a>6 &#x8C03;&#x8BD5;</h2>
+<p>&#x4EE5;&#x4E0A;&#x662F;&#x4E00;&#x5957;&#x5B8C;&#x6574;&#x7684;&#x96C6;&#x6210;&#x6D41;&#x7A0B;&#xFF0C;&#x5230;&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#x5DF2;&#x7ECF;&#x5B8C;&#x6210;&#x4E86;50%&#x7684;&#x5DE5;&#x4F5C;&#x3002;&#x8C03;&#x8BD5;&#x4E3B;&#x8981;&#x56F4;&#x7ED5;MIC&#x8FD9;&#x5757;&#xFF0C;&#x62FE;&#x97F3;&#x4EE5;&#x53CA;&#x8BED;&#x97F3;&#x8BC6;&#x522B;&#x51C6;&#x786E;&#x5EA6;&#x90FD;&#x56F4;&#x7ED5;&#x5728;&#x8FD9;&#x91CC;&#xFF0C;&#x5EFA;&#x8BAE;&#x5927;&#x5BB6;&#x5206;&#x4E24;&#x6B65;&#xFF1A;</p>
+<p><strong>&#x7B2C;&#x4E00;&#x6B65;</strong>&#xFF1A;&#x6D4B;&#x8BD5;&#x786C;&#x4EF6;&#x662F;&#x5426;OK&#xFF0C;&#x6211;&#x4EEC;&#x4F7F;&#x7528;tinycap&#x547D;&#x4EE4;&#x6293;&#x53D6;pcm&#x88F8;&#x6570;&#x636E;&#xFF0C;&#x8FD9;&#x4E2A;&#x547D;&#x4EE4;&#x662F;&#x4ECE;kernel&#x5C42;&#x76F4;&#x63A5;&#x62FF;&#x6570;&#x636E;&#xFF0C;&#x4E0D;&#x7ECF;&#x8FC7;HAL&#x5C42;&#xFF0C;&#x8FD9;&#x6837;&#x53EF;&#x4EE5;&#x5B9A;&#x4F4D;&#x95EE;&#x9898;&#x3002;&#x7136;&#x540E;&#x7528;Audacity&#x5DE5;&#x5177;&#x5206;&#x6790;&#x6CE2;&#x5F62;&#xFF0C;&#x8981;&#x60F3;&#x8BC6;&#x522B;&#x6548;&#x679C;&#x597D;&#x5C31;&#x4E0D;&#x80FD;&#x6709;&#x6742;&#x97F3;&#x51FA;&#x73B0;&#x3002;</p>
+<pre><code>adb shell
+stop runtime
+cd /sdcard
+tinycap file.wav [-D card] [-d device] [-c channels] [-r rate] [-b bits] [-p period_size] [-n n_periods]
+
+card        &#xFF1A;&#x9009;&#x62E9;&#x4E00;&#x4E2A;MIC&#x8BBE;&#x5907;&#xFF0C;&#x53EF;&#x4EE5;&#x6267;&#x884C;`cat /proc/asound/cards` &#x4E0B;&#x67E5;&#x770B;
+device      &#xFF1A;0&#x4EE3;&#x8868;&#x8F93;&#x5165;&#xFF0C;1&#x4EE3;&#x8868;&#x8F93;&#x51FA;
+channels    &#xFF1A;&#x901A;&#x9053;&#x6570;
+rate        &#xFF1A;&#x91C7;&#x6837;&#x7387;&#xFF0C;Siren&#x91C7;&#x6837;&#x7387;&#x6700;&#x5C0F;&#x5FC5;&#x987B;&#x4E3A;48K
+bits        &#xFF1A;&#x6BD4;&#x7279;&#x7387;&#xFF0C;32/24/16
+period_size &#xFF1A;&#x5468;&#x671F;
+periods     &#xFF1A;&#x70B9;
+
+&#x4F8B;&#xFF1A;
+tinycap 1.wav -D 0 -d 0 -c 8 -r 48000 -b 32 -p 1024 -n 8
+adb pull sdcard/1.wav ./
+</code></pre><p><strong>&#x7B2C;&#x4E8C;&#x6B65;</strong>&#xFF1A;&#x62FE;&#x97F3;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;Siren&#xFF0C;&#x8FD9;&#x91CC;&#x6559;&#x5927;&#x5BB6;&#x505A;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x914D;&#x7F6E;&#x3002;</p>
+<pre><code>1. /rokid-blacksiren/resource/blacksiren.json 
+
+mic_num        &#xFF1A;&#x603B;&#x7684;MIC&#x4E2A;&#x6570;(aec&#x6CA1;&#x6709;&#x5219;&#x4E0D;&#x8BA1;&#x7B97;&#x5728;&#x5185;)
+mic_channel_num&#xFF1A;&#x5BF9;&#x5E94;&#x7684;channel&#x6570;&#xFF0C;&#x4E00;&#x822C;&#x662F;&#x4E00;&#x5BF9;&#x4E00;
+mic_simple_rate&#xFF1A;&#x5927;&#x4E8E;&#x7B49;&#x4E8E;48000
+</code></pre><p><img src="images/config1.png" alt=""></p>
+<pre><code>2. /rokid-blacksiren/resource/cn/r2ssp.cfg
+
+audio.rate  &#xFF1A;&#x7B49;&#x540C;&#x4E8E;&#x4E0A;&#x9762;&#x7684; sample_rate
+aec         &#xFF1A;(&#x91CD;&#x8981;)&#x5168;&#x79F0;&#x4E3A;Acoustic Echo Chancellor&#xFF0C;&#x53EF;&#x4EE5;&#x6D88;&#x9664;&#x5404;&#x79CD;&#x5EF6;&#x8FDF;&#x7684;&#x56DE;&#x58F0;&#xFF0C;&#x8FD9;&#x4E2A;&#x9700;&#x8981;&#x5185;&#x6838;&#x505A;&#x4FEE;&#x6539;&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x5173;&#x95ED;&#x6389;(&#x7F6E;0)
+aec.mics    &#xFF1A;&#x5B9E;&#x9645;&#x4F7F;&#x7528;&#x7684;MIC&#x901A;&#x9053;(&#x4E0D;&#x5305;&#x62EC;aec)
+aec.ref.mics&#xFF1A;aec&#x7684;&#x865A;&#x62DF;&#x901A;&#x9053;(aec&#x662F;&#x5173;&#x95ED;&#x53EF;&#x4EE5;&#x4E0D;&#x7528;&#x7BA1;)
+</code></pre><p><img src="images/config2.png" alt=""></p>
+<pre><code>mic.num       &#xFF1A;&#x603B;&#x7684;MIC&#x4E2A;&#x6570;(aec&#x6CA1;&#x6709;&#x5219;&#x4E0D;&#x8BA1;&#x7B97;&#x5728;&#x5185;)
+mic.pos(0...n)&#xFF1A;MIC&#x65B9;&#x4F4D;&#xFF0C;&#x7A0B;&#x4E09;&#x7EF4;&#x7ACB;&#x4F53;&#x578B;&#xFF0C;&#x9700;&#x8981;&#x6E38;&#x6807;&#x5C3A;&#x7CBE;&#x786E;&#x6D4B;&#x91CF;&#xFF0C;&#x5BFB;&#x5411;&#x89D2;&#x5EA6;&#x4E0E;&#x6B64;&#x76F8;&#x5173;&#xFF0C;&#x4E0D;&#x5F71;&#x54CD;&#x62FE;&#x97F3;&#x3002;&#x5982;&#x56FE;0--3&#x4E3A;&#x5B9E;&#x9645;MIC&#xFF0C;&#x9700;&#x8981;&#x7CBE;&#x786E;&#x65B9;&#x4F4D;&#xFF0C;&#x540E;&#x9762;&#x5168;&#x90E8;&#x90FD;&#x662F;AEC&#x865A;&#x62DF;&#x901A;&#x9053;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x65B9;&#x4F4D; &#x3002;&#x5927;&#x5BB6;&#x6839;&#x636E;&#x81EA;&#x5DF1;&#x7684;&#x786C;&#x4EF6;&#x8FDB;&#x884C;&#x914D;&#x7F6E;(&#x8BE6;&#x7EC6;&#x6D4B;&#x91CF;&#x65B9;&#x5F0F;&#x89C1;&#x9644;&#x4EF6;1)
+sl.poc        &#xFF1A;&#x5B9E;&#x9645;&#x4F7F;&#x7528;&#x7684;MIC&#x901A;&#x9053;(&#x4E0D;&#x5305;&#x62EC;aec)
+bf.mics       &#xFF1A;&#x540C;&#x4E0A;
+</code></pre><p><img src="images/config3.png" alt=""></p>
+<p>&#x5230;&#x8FD9;&#x4E3A;&#x6B62;&#x6574;&#x4E2A;&#x96C6;&#x6210;&#x5C31;&#x5927;&#x544A;&#x5B8C;&#x6210;&#xFF0C;&#x540E;&#x7EED;&#x4F18;&#x5316;&#x4E3B;&#x8981;&#x9488;&#x5BF9;MIC&#x786C;&#x4EF6;&#xFF0C;&#x4EE5;&#x53CA;&#x6DFB;&#x52A0;AEC&#x6765;&#x6539;&#x5584;&#x62FE;&#x97F3;&#xFF0C;&#x4E0B;&#x4E00;&#x7AE0;&#x5C31;&#x4F1A;&#x8BB2;&#x89E3;&#x7F16;&#x8BD1;&#x4E2D;&#x666E;&#x904D;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;&#x3002;</p>
+<p><strong>&#x9644;&#x4EF6;1&#xFF1A;</strong></p>
+<p>&#x5982;&#x56FE;&#xFF0C;MIC&#x53EF;&#x4EE5;&#x5448;&#x4E09;&#x7EF4;&#x7ACB;&#x4F53;&#x8BBE;&#x8BA1;&#xFF0C;&#x4F46;&#x4E00;&#x822C;&#x90FD;&#x662F;&#x4E8C;&#x7EF4;&#x7684;&#x3002;&#x4E0D;&#x7BA1;&#x600E;&#x6837;&#xFF0C;&#x53EA;&#x8981;&#x627E;&#x5230;&#x5706;&#x5FC3;&#xFF0C;&#x987A;&#x65F6;&#x9488;&#x6D4B;&#x91CF;&#x4ECE;&#x5706;&#x5FC3;&#x5230;MIC&#x4E4B;&#x95F4;&#x7684;&#x8DDD;&#x79BB;&#x3002;&#x4F8B;&#x5982;&#x4E0A;&#x9762;pos.0&#x7684;&#x5750;&#x6807;&#xFF1A;x=0.00000000&#xFF0C;y=0.03000000&#xFF0C;z=0.00000000&#xFF0C;&#x5355;&#x4F4D;&#x4E3A;&#x201D;&#x7C73;&#x201C;&#x3002;
+<img src="images/MIC.png" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="get-the-certification-file.html" class="navigation navigation-prev " aria-label="Previous page: 获取认证文件">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../3-LinuxDeviceGuide/linux_openvoice_guide.html" class="navigation navigation-next " aria-label="Next page: Linux 设备开发引导">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Rokid Android SDK 接入指南","level":"5.2","depth":1,"next":{"title":"Linux 设备开发引导","level":"6.1","depth":1,"path":"2-RokidDocument/3-LinuxDeviceGuide/linux_openvoice_guide.md","ref":"2-RokidDocument/3-LinuxDeviceGuide/linux_openvoice_guide.md","articles":[]},"previous":{"title":"获取认证文件","level":"5.1","depth":1,"path":"2-RokidDocument/2-EnableVoice/get-the-certification-file.md","ref":"2-RokidDocument/2-EnableVoice/get-the-certification-file.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","github"],"pluginsConfig":{"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":false},"github":{"url":"https://github.com/Rokid"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"2-RokidDocument/2-EnableVoice/rokid-sdk-tutorial.md","mtime":"2017-08-24T14:05:08.753Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-24T14:06:03.849Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

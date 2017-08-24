@@ -1,0 +1,809 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Rokid OAuth 指南 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="rokid-js-engine-tutorial.html" />
+    
+    
+    <link rel="prev" href="rokid-regular-expression.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Rokid 开发者社区文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开发者社区介绍</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../rokid-community-introduction.html">
+            
+                <a href="../../rokid-community-introduction.html">
+            
+                    
+                    Rokid开发者社区介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">快速开始</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../1-GetStarted/rokid-skill-kit-introduction.html">
+            
+                <a href="../../1-GetStarted/rokid-skill-kit-introduction.html">
+            
+                    
+                    开始开发Rokid技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../1-GetStarted/enable-rokid-voice.html">
+            
+                <a href="../../1-GetStarted/enable-rokid-voice.html">
+            
+                    
+                    开始接入Rokid语音
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开发Rokid技能</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="skill-sample-coffee.html">
+            
+                <a href="skill-sample-coffee.html">
+            
+                    
+                    开始创建第一个技能：我要喝咖啡
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="define-voice-interaction.html">
+            
+                <a href="define-voice-interaction.html">
+            
+                    
+                    为技能定义语音交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="show_skill_information.html">
+            
+                <a href="show_skill_information.html">
+            
+                    
+                    如何展示您的技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="rokid-bult-in-slots.html">
+            
+                <a href="rokid-bult-in-slots.html">
+            
+                    
+                    Rokid 预定义词表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="rokid-regular-expression.html">
+            
+                <a href="rokid-regular-expression.html">
+            
+                    
+                    Rokid NLP正则表达式使用指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.6" data-path="rokid-oauth.html">
+            
+                <a href="rokid-oauth.html">
+            
+                    
+                    Rokid OAuth 指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="rokid-js-engine-tutorial.html">
+            
+                <a href="rokid-js-engine-tutorial.html">
+            
+                    
+                    Rokid JS Engine 使用指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="ssml-document.html">
+            
+                <a href="ssml-document.html">
+            
+                    
+                    在技能中使用SSML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="rokid-voice-interaction-guidelines.html">
+            
+                <a href="rokid-voice-interaction-guidelines.html">
+            
+                    
+                    Rokid 语音交互设计指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="skill-sample.html">
+            
+                <a href="skill-sample.html">
+            
+                    
+                    Rokid 示例技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">为设备开启语音交互</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../2-EnableVoice/get-the-certification-file.html">
+            
+                <a href="../2-EnableVoice/get-the-certification-file.html">
+            
+                    
+                    获取认证文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../2-EnableVoice/rokid-sdk-tutorial.html">
+            
+                <a href="../2-EnableVoice/rokid-sdk-tutorial.html">
+            
+                    
+                    Rokid Android SDK 接入指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Linux 设备接入</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../3-LinuxDeviceGuide/linux_openvoice_guide.html">
+            
+                <a href="../3-LinuxDeviceGuide/linux_openvoice_guide.html">
+            
+                    
+                    Linux 设备开发引导
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">API REFERENCE</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../../3-ApiReference/cloud-app-development-protocol_cn.html">
+            
+                <a href="../../3-ApiReference/cloud-app-development-protocol_cn.html">
+            
+                    
+                    Rokid 技能协议文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../../3-ApiReference/rokid-interceptor.html">
+            
+                <a href="../../3-ApiReference/rokid-interceptor.html">
+            
+                    
+                    拦截器接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../../3-ApiReference/openvoice-api.html">
+            
+                <a href="../../3-ApiReference/openvoice-api.html">
+            
+                    
+                    Rokid 接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../../3-ApiReference/rokid-client-sdk-doc.html">
+            
+                <a href="../../3-ApiReference/rokid-client-sdk-doc.html">
+            
+                    
+                    Rokid 客户端 SDK 文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="../../3-ApiReference/siren-api.html">
+            
+                <a href="../../3-ApiReference/siren-api.html">
+            
+                    
+                    Rokid 前端降噪模块 API文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">设计语音产品</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../2-EnableVoice/rokid-hardware-design-guide.html">
+            
+                <a href="../2-EnableVoice/rokid-hardware-design-guide.html">
+            
+                    
+                    Rokid 语音产品硬件设计指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../2-EnableVoice/rokid-hardware-ux-design-guidelines.html">
+            
+                <a href="../2-EnableVoice/rokid-hardware-ux-design-guidelines.html">
+            
+                    
+                    Rokid 硬件交互设计指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">智能家居开发</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" >
+            
+                <a target="_blank" href="https://rokid.github.io/rokid-homebase-docs/">
+            
+                    
+                    Rokid 智能家居开发文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">协议条款</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../../4-TermsAndAgreements/rokid-skill-release-standard.html">
+            
+                <a href="../../4-TermsAndAgreements/rokid-skill-release-standard.html">
+            
+                    
+                    技能发布标准
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../../4-TermsAndAgreements/community-service-agreement.html">
+            
+                <a href="../../4-TermsAndAgreements/community-service-agreement.html">
+            
+                    
+                    服务协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../../4-TermsAndAgreements/community-disclaimer.html">
+            
+                <a href="../../4-TermsAndAgreements/community-disclaimer.html">
+            
+                    
+                    免责声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">支持</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" >
+            
+                <a target="_blank" href="https://developer-forum.rokid.com/">
+            
+                    
+                    Rokid讨论区
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" >
+            
+                <a target="_blank" href="https://developer.rokid.com/">
+            
+                    
+                    Rokid开发者社区官网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" >
+            
+                <a target="_blank" href="https://www.rokid.com/">
+            
+                    
+                    Rokid 官网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4" >
+            
+                <a target="_blank" href="https://www.rokid.com/smarthome/">
+            
+                    
+                    Rokid 智能家居
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Rokid OAuth 指南</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#rokid-oauth-&#x4F7F;&#x7528;&#x6307;&#x5357;"><b></b>Rokid OAuth &#x4F7F;&#x7528;&#x6307;&#x5357;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4F7F;&#x7528;&#x573A;&#x666F;"><b></b>&#x4F7F;&#x7528;&#x573A;&#x666F;</a></li><li><span class="title-icon "></span><a href="#&#x4EA4;&#x4E92;&#x6D41;&#x7A0B;"><b></b>&#x4EA4;&#x4E92;&#x6D41;&#x7A0B;</a></li><li><span class="title-icon "></span><a href="#&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x6388;&#x6743;&#x7684;&#x6280;&#x80FD;"><b></b>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x6388;&#x6743;&#x7684;&#x6280;&#x80FD;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4E00;&#x3001;&#x51C6;&#x5907;&#x5DE5;&#x4F5C;"><b></b>&#x4E00;&#x3001;&#x51C6;&#x5907;&#x5DE5;&#x4F5C;</a></li><li><span class="title-icon "></span><a href="#&#x4E8C;&#x3001;oauth&#x76F8;&#x5173;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x5F00;&#x53D1;"><b></b>&#x4E8C;&#x3001;OAuth&#x76F8;&#x5173;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x5F00;&#x53D1;</a></li></ul></ul></ul></div><a href="#rokid-oauth-&#x4F7F;&#x7528;&#x6307;&#x5357;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="rokid-oauth-&#x4F7F;&#x7528;&#x6307;&#x5357;"><a name="rokid-oauth-&#x4F7F;&#x7528;&#x6307;&#x5357;" class="anchor-navigation-ex-anchor" href="#rokid-oauth-&#x4F7F;&#x7528;&#x6307;&#x5357;"><i class="fa fa-link" aria-hidden="true"></i></a>Rokid OAuth &#x4F7F;&#x7528;&#x6307;&#x5357;</h1>
+<h2 id="&#x4F7F;&#x7528;&#x573A;&#x666F;"><a name="&#x4F7F;&#x7528;&#x573A;&#x666F;" class="anchor-navigation-ex-anchor" href="#&#x4F7F;&#x7528;&#x573A;&#x666F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4F7F;&#x7528;&#x573A;&#x666F;</h2>
+<p>&#x5F53;&#x4F60;&#x5F00;&#x53D1;&#x7684;&#x6280;&#x80FD;&#x9700;&#x8981;&#x901A;&#x8FC7;&#x7528;&#x6237;&#x6388;&#x6743;&#x5728;&#x559C;&#x9A6C;&#x62C9;&#x96C5;&#x7B49;&#x7B2C;&#x4E09;&#x65B9;&#x5E94;&#x7528;&#x4E0A;&#x7684;&#x6388;&#x6743;&#x4FE1;&#x606F;&#x6765;&#x63D0;&#x5347;&#x6280;&#x80FD;&#x7684;&#x4E2A;&#x6027;&#x5316;&#x4F53;&#x9A8C;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x6309;&#x7167;&#x672C;&#x6307;&#x5357;&#x7684;&#x6D41;&#x7A0B;&#x6765;&#x4E00;&#x6B65;&#x6B65;&#x5B9E;&#x73B0;&#x3002;</p>
+<p>&#x672C;&#x6587;&#x6863;&#x9002;&#x7528;&#x4E8E;&#x7B2C;&#x4E09;&#x65B9;&#x5BF9;&#x63A5;Rokid OAuth2&#x6807;&#x51C6;&#x6388;&#x6743;&#x670D;&#x52A1;&#x3002;Rokid&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x6807;&#x51C6;&#x6388;&#x6743;&#x767B;&#x5F55;&#x6D41;&#x7A0B;&#x91C7;&#x7528;OAuth2&#x6807;&#x51C6;&#x6388;&#x6743;&#x7801;&#xFF08;authorization code&#xFF09;&#x6A21;&#x5F0F;&#x3002;</p>
+<h2 id="&#x4EA4;&#x4E92;&#x6D41;&#x7A0B;"><a name="&#x4EA4;&#x4E92;&#x6D41;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#&#x4EA4;&#x4E92;&#x6D41;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4EA4;&#x4E92;&#x6D41;&#x7A0B;</h2>
+<p><img src="images/1501038809064.png" alt="Alt text">
+<strong>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;</strong>&#x7528;&#x6237;&#x4E0E;&#x8BBE;&#x5907;&#x4EA7;&#x751F;&#x8BED;&#x97F3;&#x4EA4;&#x4E92;&#x540E;&#xFF0C;&#x7ECF;Rokid Speech&#x3001;Rokid Dispatch&#x670D;&#x52A1;&#x5904;&#x7406;&#x540E;&#xFF0C;&#x4EA4;&#x7531;&#x76F8;&#x5E94;&#x6280;&#x80FD;&#x7684;&#x670D;&#x52A1;&#x8FDB;&#x884C;&#x8FDB;&#x4E00;&#x6B65;&#x5904;&#x7406;&#x3002;&#x5F53;&#x6280;&#x80FD;&#x670D;&#x52A1;&#x53D1;&#x73B0;&#x7528;&#x6237;&#x9700;&#x8981;&#x63D0;&#x4F9B;&#x6388;&#x6743;&#x4FE1;&#x606F;&#x65F6;&#xFF0C;&#x4F1A;&#x5411;Rokid Dispatch&#x63A8;&#x9001;Auth Card response&#xFF0C;Rokid Dispatch&#x63A5;&#x53D7;&#x5230;response&#x4F1A;&#x5411;Rokid App&#x63A8;&#x9001;&#x767B;&#x5F55;&#x6388;&#x6743;&#x6240;&#x9700;&#x8981;&#x7684;url&#x3002;</p>
+<p><strong>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;</strong>&#x82E5;&#x5DF2;&#x767B;&#x5F55;&#xFF0C;&#x5219;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x7684;token&#x4FE1;&#x606F;&#x3002;&#x82E5;&#x6CA1;&#x6709;&#x6388;&#x6743;&#x4FE1;&#x606F;&#x5219;&#x4F1A;&#x5411;&#x7528;&#x6237;&#x63A8;&#x9001;&#x767B;&#x5F55;url&#xFF0C;&#x7528;&#x6237;&#x767B;&#x5F55;&#x5E76;&#x6388;&#x6743;&#x540E;&#x5373;&#x53EF;&#x83B7;&#x5F97;&#x7528;&#x6237;&#x5728;&#x7B2C;&#x4E09;&#x65B9;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6388;&#x6743;&#x4FE1;&#x606F;&#x3002;</p>
+<p><strong>&#x7B2C;&#x4E09;&#x6B65;&#xFF1A;</strong>&#x83B7;&#x53D6;&#x4E86;&#x7528;&#x6237;&#x7684;&#x6388;&#x6743;&#x4FE1;&#x606F;&#x540E;&#xFF0C;&#x5C06;&#x4F1A;&#x901A;&#x77E5;&#x7B2C;&#x4E09;&#x65B9;&#x5E94;&#x7528;&#x5DF2;&#x83B7;&#x53D6;&#x6210;&#x529F;&#x6388;&#x6743;&#x3002;</p>
+<h2 id="&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x6388;&#x6743;&#x7684;&#x6280;&#x80FD;"><a name="&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x6388;&#x6743;&#x7684;&#x6280;&#x80FD;" class="anchor-navigation-ex-anchor" href="#&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x6388;&#x6743;&#x7684;&#x6280;&#x80FD;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x6388;&#x6743;&#x7684;&#x6280;&#x80FD;</h2>
+<h3 id="&#x4E00;&#x3001;&#x51C6;&#x5907;&#x5DE5;&#x4F5C;"><a name="&#x4E00;&#x3001;&#x51C6;&#x5907;&#x5DE5;&#x4F5C;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x3001;&#x51C6;&#x5907;&#x5DE5;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E00;&#x3001;&#x51C6;&#x5907;&#x5DE5;&#x4F5C;</h3>
+<p>&#x4EE5;&#x559C;&#x9A6C;&#x62C9;&#x96C5;&#x4E3A;&#x4F8B;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x9700;&#x8981;&#x6388;&#x6743;&#x7684;&#x6280;&#x80FD;&#x3002;</p>
+<p>1.&#x5728;&#x559C;&#x9A6C;&#x62C9;&#x96C5;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6280;&#x80FD;&#xFF0C;&#x5E76;&#x4E14;&#x628A;oauth2&#x6388;&#x6743;&#x56DE;&#x8C03;&#x5730;&#x5740;&#x586B;&#x5199;&#x5230;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#x4F4D;&#x7F6E;&#x5904;&#x3002;&#x56DE;&#x8C03;&#x5730;&#x5740;&#x4E3A;&#xFF1A;<a href="https://account.rokid.com/skills/callback.do" target="_blank">https://account.rokid.com/skills/callback.do</a></p>
+<p><img src="images/oauth.png" alt="Alt text"></p>
+<p>2.&#x5728;&#x559C;&#x9A6C;&#x62C9;&#x96C5;&#x521B;&#x5EFA;&#x5E94;&#x7528;&#x6210;&#x529F;&#x540E;&#x53EF;&#x4EE5;&#x83B7;&#x5F97;&#x8BE5;&#x5E94;&#x7528;&#x7684;clientId&#x548C;clientSecret&#xFF0C;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;
+<img src="images/1501830262189.png" alt="Alt text"></p>
+<p>3.&#x5728;<a href="https://developer.rokid.com/#/" target="_blank">Rokid&#x5F00;&#x53D1;&#x8005;&#x793E;&#x533A;</a>&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x6280;&#x80FD;</p>
+<p>4.&#x586B;&#x5199;&#x6280;&#x80FD;&#x57FA;&#x672C;&#x4FE1;&#x606F;&#x53CA;&#x8BED;&#x97F3;&#x4EA4;&#x4E92;&#x4FE1;&#x606F;</p>
+<p>5.&#x5728;&#x300C;&#x914D;&#x7F6E;&#x300D;&#x9875;&#x9762;&#x586B;&#x5199;&#x7EC8;&#x7AEF;&#x670D;&#x52A1;&#x53CA;&#x6388;&#x6743;&#x4FE1;&#x606F;&#xFF0C; &#x5982;&#x4E0B;&#x56FE;&#xFF1A;
+<img src="images/rokid-3.jpeg" alt="Alt text"></p>
+<h3 id="&#x4E8C;&#x3001;oauth&#x76F8;&#x5173;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x5F00;&#x53D1;"><a name="&#x4E8C;&#x3001;oauth&#x76F8;&#x5173;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x5F00;&#x53D1;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x3001;oauth&#x76F8;&#x5173;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x5F00;&#x53D1;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E8C;&#x3001;OAuth&#x76F8;&#x5173;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x5F00;&#x53D1;</h3>
+<p>1.&#x89E3;&#x6790;&#x63A5;&#x6536;&#x5230;Rokid request&#x53C2;&#x6570;&#xFF0C;&#x53C2;&#x6570;&#x4FE1;&#x606F;&#x4F8B;&#x5B50;&#x5982;&#x4E0B;</p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;context&quot;</span>: {
+    <span class="hljs-string">&quot;application&quot;</span>: {
+      <span class="hljs-string">&quot;applicationId&quot;</span>: <span class="hljs-string">&quot;R69DCB84C84E4966AF690552705018EF&quot;</span>
+    },
+    <span class="hljs-string">&quot;device&quot;</span>: {
+      <span class="hljs-string">&quot;basic&quot;</span>: {
+        <span class="hljs-string">&quot;deviceId&quot;</span>: <span class="hljs-string">&quot;0202021716000025&quot;</span>,
+        <span class="hljs-string">&quot;deviceType&quot;</span>: <span class="hljs-string">&quot;98EA4B548AEB4A329D21615B9ED060E5&quot;</span>,
+        <span class="hljs-string">&quot;locale&quot;</span>: <span class="hljs-string">&quot;zh-cn&quot;</span>,
+        <span class="hljs-string">&quot;masterId&quot;</span>: <span class="hljs-string">&quot;13646829663&quot;</span>,
+        <span class="hljs-string">&quot;timestamp&quot;</span>: <span class="hljs-number">0</span>,
+        <span class="hljs-string">&quot;vendor&quot;</span>: <span class="hljs-string">&quot;910B21C0AF987D67AE7B2D50D6197421&quot;</span>
+      },
+      <span class="hljs-string">&quot;location&quot;</span>: {},
+      <span class="hljs-string">&quot;media&quot;</span>: {}
+    },
+    <span class="hljs-string">&quot;user&quot;</span>: {
+      <span class="hljs-string">&quot;accountLinkedId&quot;</span>: <span class="hljs-string">&quot;aa8afcf9c9159ac9e06aab35cde7a475&quot;</span>,
+      <span class="hljs-string">&quot;userId&quot;</span>: <span class="hljs-string">&quot;8502D6F85557559C3F62B1D40247EE24&quot;</span>
+    }
+  },
+  <span class="hljs-string">&quot;request&quot;</span>: {
+    <span class="hljs-string">&quot;content&quot;</span>: {
+      <span class="hljs-string">&quot;applicationId&quot;</span>: <span class="hljs-string">&quot;R69DCB84C84E4966AF690552705018EF&quot;</span>,
+      <span class="hljs-string">&quot;intent&quot;</span>: <span class="hljs-string">&quot;ROKID.INTENT.WELCOME&quot;</span>,
+      <span class="hljs-string">&quot;slots&quot;</span>: {}
+    },
+    <span class="hljs-string">&quot;reqId&quot;</span>: <span class="hljs-string">&quot;C73901742BFA4AF7AAE0B63A24AFE4F3&quot;</span>,
+    <span class="hljs-string">&quot;reqType&quot;</span>: <span class="hljs-string">&quot;INTENT&quot;</span>
+  },
+  <span class="hljs-string">&quot;session&quot;</span>: {
+    <span class="hljs-string">&quot;attributes&quot;</span>: {},
+    <span class="hljs-string">&quot;newSession&quot;</span>: <span class="hljs-literal">false</span>,
+    <span class="hljs-string">&quot;sessionId&quot;</span>: <span class="hljs-string">&quot;6A0B65595DCE4F4D87244FD2B652C0F0&quot;</span>
+  },
+  <span class="hljs-string">&quot;version&quot;</span>: <span class="hljs-string">&quot;2.0.0&quot;</span>
+}
+</code></pre>
+<ul>
+<li><p>&#x4E0A;&#x8FF0;json&#x4E2D;<code>$.context.user.accountLinkedId</code>&#x5904;&#x4E3A;&#x7A7A;&#x65F6;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x53D1;&#x9001;card&#x8981;&#x6C42;&#x6280;&#x80FD;&#x7528;&#x6237;&#x5B8C;&#x6210;&#x6388;&#x6743;&#x64CD;&#x4F5C;&#xFF0C;&#x8FD4;&#x56DE;&#x7ED9;rokid&#x7684;reponse &#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;version&quot;</span>: <span class="hljs-string">&quot;2.0.0&quot;</span>,
+    <span class="hljs-string">&quot;startWithActiveWord&quot;</span>: <span class="hljs-literal">false</span>,
+    <span class="hljs-string">&quot;appId&quot;</span>: <span class="hljs-string">&quot;RA66AF851FEE4CE6AF5979525AE1246A&quot;</span>,
+    <span class="hljs-string">&quot;session&quot;</span>: {
+      <span class="hljs-string">&quot;attributes&quot;</span>: <span class="hljs-literal">null</span>
+    },
+    <span class="hljs-string">&quot;response&quot;</span>: {
+      <span class="hljs-string">&quot;action&quot;</span>: {
+        <span class="hljs-string">&quot;version&quot;</span>: <span class="hljs-string">&quot;2.0.0&quot;</span>,
+        <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;NORMAL&quot;</span>,
+        <span class="hljs-string">&quot;form&quot;</span>: <span class="hljs-string">&quot;cut&quot;</span>,
+        <span class="hljs-string">&quot;shouldEndSession&quot;</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-string">&quot;voice&quot;</span>: {
+          <span class="hljs-string">&quot;action&quot;</span>: <span class="hljs-string">&quot;PLAY&quot;</span>,
+          <span class="hljs-string">&quot;item&quot;</span>: {
+            <span class="hljs-string">&quot;tts&quot;</span>: <span class="hljs-string">&quot;&#x4F60;&#x8FD8;&#x6CA1;&#x6709;&#x7ED1;&#x5B9A;&#x559C;&#x9A6C;&#x62C9;&#x96C5;&#x8D26;&#x53F7;&#x8FD8;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;&#x672C;&#x6280;&#x80FD;&#xFF0C;&#x8BF7;&#x901A;&#x8FC7;&#x624B;&#x673A;app&#x7ED1;&#x5B9A;&#x559C;&#x9A6C;&#x62C9;&#x96C5;&#x8D26;&#x53F7;&#x4EE5;&#x83B7;&#x5F97;&#x66F4;&#x52A0;&#x7684;&#x4F53;&#x9A8C;&quot;</span>
+          }
+        },
+        <span class="hljs-string">&quot;media&quot;</span>: <span class="hljs-literal">null</span>
+      },
+      <span class="hljs-string">&quot;card&quot;</span>: {
+        <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;ACCOUNT_LINK&quot;</span>
+      },
+      <span class="hljs-string">&quot;resType&quot;</span>: <span class="hljs-string">&quot;INTENT&quot;</span>,
+      <span class="hljs-string">&quot;respId&quot;</span>: <span class="hljs-string">&quot;03EA49EB0F484BA2823773F4FB9FAF19&quot;</span>
+    }
+  }
+</code></pre>
+<p><strong>&#x6CE8;&#xFF1A;</strong> </p>
+</li>
+<li><p>&#x8FD4;&#x56DE;Rokid&#x7684;response&#x53C2;&#x6570;&#x4E2D;&#x5982;<code>card</code>&#x5904;&#x8BBE;&#x5B9A;<code>type</code>&#x4E3A;&#x201C;AUTH&#x201D;&#xFF0C;&#x5219;Rokid&#x4F1A;&#x7ED9;&#x63A8;&#x9001;&#x4E00;&#x4E2A;&#x7533;&#x8BF7;&#x6388;&#x6743;&#x7684;push&#x6D88;&#x606F;&#x5230;&#x7528;&#x6237;&#x624B;&#x673A;&#x7684;Rokid App&#x4E0A;&#xFF08;<strong>&#x63A8;&#x9001;&#x529F;&#x80FD;&#x5C06;&#x4F1A;&#x5728;&#x4E0B;&#x4E00;&#x4E2A;&#x7248;&#x672C;&#x7684;Rokid App&#x5B9E;&#x73B0;</strong>&#xFF09;&#xFF0C;&#x6B64;&#x65F6;&#x7528;&#x6237;&#x70B9;&#x51FB;&#x63A8;&#x9001;&#x6D88;&#x606F;&#x4E2D;&#x7684;&#x94FE;&#x63A5;&#xFF0C;&#x5E76;&#x6309;&#x7167;&#x63D0;&#x793A;&#x7684;&#x64CD;&#x4F5C;&#x5B8C;&#x6210;&#x6388;&#x6743;&#x6D41;&#x7A0B;&#x3002;</p>
+</li>
+<li>&#x4E0A;&#x9762;Rokid request json&#x4E2D;&#x7684;<code>$.context.user.accountLinkedId</code>&#x5904;&#xFF0C;&#x4E0D;&#x4E3A;&#x7A7A;&#x65F6;&#xFF0C;&#x5219;&#x7528;&#x6237;&#x5DF2;&#x767B;&#x5F55;&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x653E;&#x5E73;&#x53F0;</li>
+<li>&#x4F7F;&#x7528;&#x6B65;&#x9AA4;1&#x4E2D;&#x7684;Rokid request json&#x53C2;&#x6570;&#x4E2D;<code>$.context.user.accountLinkedId</code>&#x5B8C;&#x6210;&#x8BF7;&#x6C42;&#x7B2C;&#x4E09;&#x65B9;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x8D44;&#x6E90;&#x64CD;&#x4F5C;&#x3002;</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="rokid-regular-expression.html" class="navigation navigation-prev " aria-label="Previous page: Rokid NLP正则表达式使用指南">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="rokid-js-engine-tutorial.html" class="navigation navigation-next " aria-label="Next page: Rokid JS Engine 使用指南">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Rokid OAuth 指南","level":"4.6","depth":1,"next":{"title":"Rokid JS Engine 使用指南","level":"4.7","depth":1,"path":"2-RokidDocument/1-SkillsKit/rokid-js-engine-tutorial.md","ref":"2-RokidDocument/1-SkillsKit/rokid-js-engine-tutorial.md","articles":[]},"previous":{"title":"Rokid NLP正则表达式使用指南","level":"4.5","depth":1,"path":"2-RokidDocument/1-SkillsKit/rokid-regular-expression.md","ref":"2-RokidDocument/1-SkillsKit/rokid-regular-expression.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","github"],"pluginsConfig":{"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":false},"github":{"url":"https://github.com/Rokid"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"2-RokidDocument/1-SkillsKit/rokid-oauth.md","mtime":"2017-08-24T14:05:08.745Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-24T14:06:03.849Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

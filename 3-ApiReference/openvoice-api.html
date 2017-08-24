@@ -1,0 +1,1277 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Rokid 接口文档 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="rokid-client-sdk-doc.html" />
+    
+    
+    <link rel="prev" href="rokid-interceptor.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Rokid 开发者社区文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开发者社区介绍</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../rokid-community-introduction.html">
+            
+                <a href="../rokid-community-introduction.html">
+            
+                    
+                    Rokid开发者社区介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">快速开始</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../1-GetStarted/rokid-skill-kit-introduction.html">
+            
+                <a href="../1-GetStarted/rokid-skill-kit-introduction.html">
+            
+                    
+                    开始开发Rokid技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../1-GetStarted/enable-rokid-voice.html">
+            
+                <a href="../1-GetStarted/enable-rokid-voice.html">
+            
+                    
+                    开始接入Rokid语音
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">开发Rokid技能</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../2-RokidDocument/1-SkillsKit/skill-sample-coffee.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/skill-sample-coffee.html">
+            
+                    
+                    开始创建第一个技能：我要喝咖啡
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../2-RokidDocument/1-SkillsKit/define-voice-interaction.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/define-voice-interaction.html">
+            
+                    
+                    为技能定义语音交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../2-RokidDocument/1-SkillsKit/show_skill_information.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/show_skill_information.html">
+            
+                    
+                    如何展示您的技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../2-RokidDocument/1-SkillsKit/rokid-bult-in-slots.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/rokid-bult-in-slots.html">
+            
+                    
+                    Rokid 预定义词表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../2-RokidDocument/1-SkillsKit/rokid-regular-expression.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/rokid-regular-expression.html">
+            
+                    
+                    Rokid NLP正则表达式使用指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../2-RokidDocument/1-SkillsKit/rokid-oauth.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/rokid-oauth.html">
+            
+                    
+                    Rokid OAuth 指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../2-RokidDocument/1-SkillsKit/rokid-js-engine-tutorial.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/rokid-js-engine-tutorial.html">
+            
+                    
+                    Rokid JS Engine 使用指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="../2-RokidDocument/1-SkillsKit/ssml-document.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/ssml-document.html">
+            
+                    
+                    在技能中使用SSML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="../2-RokidDocument/1-SkillsKit/rokid-voice-interaction-guidelines.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/rokid-voice-interaction-guidelines.html">
+            
+                    
+                    Rokid 语音交互设计指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="../2-RokidDocument/1-SkillsKit/skill-sample.html">
+            
+                <a href="../2-RokidDocument/1-SkillsKit/skill-sample.html">
+            
+                    
+                    Rokid 示例技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">为设备开启语音交互</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../2-RokidDocument/2-EnableVoice/get-the-certification-file.html">
+            
+                <a href="../2-RokidDocument/2-EnableVoice/get-the-certification-file.html">
+            
+                    
+                    获取认证文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../2-RokidDocument/2-EnableVoice/rokid-sdk-tutorial.html">
+            
+                <a href="../2-RokidDocument/2-EnableVoice/rokid-sdk-tutorial.html">
+            
+                    
+                    Rokid Android SDK 接入指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Linux 设备接入</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../2-RokidDocument/3-LinuxDeviceGuide/linux_openvoice_guide.html">
+            
+                <a href="../2-RokidDocument/3-LinuxDeviceGuide/linux_openvoice_guide.html">
+            
+                    
+                    Linux 设备开发引导
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">API REFERENCE</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="cloud-app-development-protocol_cn.html">
+            
+                <a href="cloud-app-development-protocol_cn.html">
+            
+                    
+                    Rokid 技能协议文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="rokid-interceptor.html">
+            
+                <a href="rokid-interceptor.html">
+            
+                    
+                    拦截器接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="7.3" data-path="openvoice-api.html">
+            
+                <a href="openvoice-api.html">
+            
+                    
+                    Rokid 接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="rokid-client-sdk-doc.html">
+            
+                <a href="rokid-client-sdk-doc.html">
+            
+                    
+                    Rokid 客户端 SDK 文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="siren-api.html">
+            
+                <a href="siren-api.html">
+            
+                    
+                    Rokid 前端降噪模块 API文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">设计语音产品</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../2-RokidDocument/2-EnableVoice/rokid-hardware-design-guide.html">
+            
+                <a href="../2-RokidDocument/2-EnableVoice/rokid-hardware-design-guide.html">
+            
+                    
+                    Rokid 语音产品硬件设计指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../2-RokidDocument/2-EnableVoice/rokid-hardware-ux-design-guidelines.html">
+            
+                <a href="../2-RokidDocument/2-EnableVoice/rokid-hardware-ux-design-guidelines.html">
+            
+                    
+                    Rokid 硬件交互设计指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">智能家居开发</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" >
+            
+                <a target="_blank" href="https://rokid.github.io/rokid-homebase-docs/">
+            
+                    
+                    Rokid 智能家居开发文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">协议条款</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../4-TermsAndAgreements/rokid-skill-release-standard.html">
+            
+                <a href="../4-TermsAndAgreements/rokid-skill-release-standard.html">
+            
+                    
+                    技能发布标准
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../4-TermsAndAgreements/community-service-agreement.html">
+            
+                <a href="../4-TermsAndAgreements/community-service-agreement.html">
+            
+                    
+                    服务协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../4-TermsAndAgreements/community-disclaimer.html">
+            
+                <a href="../4-TermsAndAgreements/community-disclaimer.html">
+            
+                    
+                    免责声明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">支持</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" >
+            
+                <a target="_blank" href="https://developer-forum.rokid.com/">
+            
+                    
+                    Rokid讨论区
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" >
+            
+                <a target="_blank" href="https://developer.rokid.com/">
+            
+                    
+                    Rokid开发者社区官网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" >
+            
+                <a target="_blank" href="https://www.rokid.com/">
+            
+                    
+                    Rokid 官网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4" >
+            
+                <a target="_blank" href="https://www.rokid.com/smarthome/">
+            
+                    
+                    Rokid 智能家居
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Rokid 接口文档</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#rokid-openvoice"><b></b>rokid-openvoice</a></li><ul><li><span class="title-icon "></span><a href="#&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#x6587;&#x6863;"><b></b>&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#x6587;&#x6863;</a></li><li><span class="title-icon "></span><a href="#&#x6587;&#x6863;&#x7B80;&#x4ECB;"><b></b>&#x6587;&#x6863;&#x7B80;&#x4ECB;</a></li><li><span class="title-icon "></span><a href="#&#x8BA4;&#x8BC1;"><b></b>&#x8BA4;&#x8BC1;</a></li><li><span class="title-icon "></span><a href="#speech-&#x63A5;&#x53E3;"><b></b>Speech &#x63A5;&#x53E3;</a></li><ul><li><span class="title-icon "></span><a href="#protobuf-&#x5B9A;&#x4E49;"><b></b>protobuf &#x5B9A;&#x4E49;</a></li><li><span class="title-icon "></span><a href="#authrequest"><b></b>AuthRequest</a></li><li><span class="title-icon "></span><a href="#authresponse"><b></b>AuthResponse</a></li><li><span class="title-icon "></span><a href="#asrrequest"><b></b>AsrRequest</a></li><li><span class="title-icon "></span><a href="#asrheader"><b></b>AsrHeader</a></li><li><span class="title-icon "></span><a href="#asrresponse"><b></b>AsrResponse</a></li><li><span class="title-icon "></span><a href="#ttsrequest"><b></b>TtsRequest</a></li><li><span class="title-icon "></span><a href="#ttsheader"><b></b>TtsHeader</a></li><li><span class="title-icon "></span><a href="#ttsresponse"><b></b>TtsResponse</a></li><li><span class="title-icon "></span><a href="#voicespeechrequest"><b></b>VoiceSpeechRequest</a></li><li><span class="title-icon "></span><a href="#textspeechrequest"><b></b>TextSpeechRequest</a></li><li><span class="title-icon "></span><a href="#speechheader"><b></b>SpeechHeader</a></li><li><span class="title-icon "></span><a href="#speechresponse"><b></b>SpeechResponse</a></li></ul></ul></ul></div><a href="#rokid-openvoice" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="rokid-openvoice"><a name="rokid-openvoice" class="anchor-navigation-ex-anchor" href="#rokid-openvoice"><i class="fa fa-link" aria-hidden="true"></i></a>rokid-openvoice</h1>
+<h2 id="&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#x6587;&#x6863;"><a name="&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#x6587;&#x6863;" class="anchor-navigation-ex-anchor" href="#&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#x6587;&#x6863;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#x6587;&#x6863;</h2>
+<blockquote>
+<p>&#x6587;&#x6863;&#x7248;&#x672C;:V0.2</p>
+</blockquote>
+<p>Rokid openvoice&#x5F00;&#x653E;&#x670D;&#x52A1;&#x5305;&#x542B;&#x4EE5;&#x4E0B;&#x56DB;&#x90E8;&#x5206;&#x529F;&#x80FD;&#xFF0C;</p>
+<ul>
+<li>&#x8BBE;&#x5907;&#x8BA4;&#x8BC1;</li>
+<li>&#x8BED;&#x97F3;&#x8BC6;&#x522B;&#xFF08;ASR&#xFF09;</li>
+<li>&#x81EA;&#x7136;&#x8BED;&#x8A00;&#x5408;&#x6210;&#xFF08;TTS&#xFF09;</li>
+<li>&#x8BED;&#x97F3;&#x4EA4;&#x4E92;&#xFF08;SPCH&#xFF09;</li>
+</ul>
+<h2 id="&#x6587;&#x6863;&#x7B80;&#x4ECB;"><a name="&#x6587;&#x6863;&#x7B80;&#x4ECB;" class="anchor-navigation-ex-anchor" href="#&#x6587;&#x6863;&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6587;&#x6863;&#x7B80;&#x4ECB;</h2>
+<p>&#x6B64;&#x6587;&#x6863;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x5F00;&#x653E;&#x5E73;&#x53F0;&#x4E0A;&#x4E91;&#x7AEF;&#x5E94;&#x7528;&#x63A5;&#x53E3;&#x5F00;&#x53D1;&#x534F;&#x8BAE;&#xFF0C;&#x534F;&#x8BAE;&#x9075;&#x5FAA; <a href="http://www.grpc.io/docs/" target="_blank">grpc</a> &#x534F;&#x8BAE;&#x3002;</p>
+<h2 id="&#x8BA4;&#x8BC1;"><a name="&#x8BA4;&#x8BC1;" class="anchor-navigation-ex-anchor" href="#&#x8BA4;&#x8BC1;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BA4;&#x8BC1;</h2>
+<p>&#x91C7;&#x7528;grpc&#x7684;<a href="http://www.grpc.io/docs/guides/auth.html" target="_blank">&#x8C03;&#x7528;&#x8BC1;&#x4E66;</a>&#x65B9;&#x6848;&#xFF0C;&#x7EA6;&#x5B9A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>key</td>
+<td>string</td>
+<td>&#x5F00;&#x653E;&#x63A5;&#x53E3;Key,&#x5728;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#x83B7;&#x53D6;</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>device_type_id</td>
+<td>string</td>
+<td>&#x8BBE;&#x5907;&#x7C7B;&#x578B;ID</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>device_id</td>
+<td>string</td>
+<td>&#x8BBE;&#x5907;ID&#xFF0C;&#x53EA;&#x80FD;&#x7531;6~15&#x4F4D;&#x7684;&#x5B57;&#x6BCD;&#x548C;&#x6570;&#x5B57;&#x7EC4;&#x6210;&#xFF0C;&#x4E0D;&#x80FD;&#x542B;&#x6709;&#x7A7A;&#x683C;&#x548C;&#x7279;&#x6B8A;&#x7B26;&#x53F7;&#x3002;<br> &#x7531;&#x5F00;&#x53D1;&#x8005;&#x81EA;&#x5DF1;&#x751F;&#x6210;&#x7BA1;&#x7406;&#xFF0C;&#x7528;&#x4E8E;&#x6807;&#x5FD7;&#x6BCF;&#x4E2A;&#x8BBE;&#x5907;&#x7684;&#x552F;&#x4E00;&#x6027;&#x3002;</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>service</td>
+<td>string</td>
+<td>asr,tts,spch</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>version</td>
+<td>string</td>
+<td>&#x63A5;&#x53E3;&#x7248;&#x672C;&#x53F7;</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>time</td>
+<td>string</td>
+<td>unix&#x65F6;&#x95F4;&#x6233;</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>sign</td>
+<td>string</td>
+<td>&#x7531;&#x4EE5;&#x4E0A;&#x51E0;&#x9879;+secret&#x6309;&#x7EA6;&#x5B9A;&#x7684;&#x52A0;&#x5BC6;&#x65B9;&#x5F0F;&#x751F;&#x6210;</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+</tbody>
+</table>
+<p>sign&#x7684;&#x751F;&#x6210;&#x52A0;&#x5BC6;&#x65B9;&#x5F0F;&#xFF1A;</p>
+<p>key={key}&amp;device_type_id={device_type_id}&amp;device_id={device_id}&amp;service={service}&amp;version={version}&amp;time={time}&amp;secret={secret}</p>
+<p>&#x7684;utf8&#x5B57;&#x7B26;&#x4E32;&#x7684;md5&#x503C;</p>
+<p>&#x5176;&#x4E2D;{xxx}&#x7531;xxx&#x7684;&#x503C;&#x66FF;&#x4EE3;</p>
+<p>key&#x53CA;secret&#x7531;&#x5F00;&#x53D1;&#x65B9;&#x901A;&#x8FC7;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#x83B7;&#x53D6;&#xFF0C;&#x5E76;&#x4FDD;&#x7BA1;&#x3002;</p>
+<h2 id="speech-&#x63A5;&#x53E3;"><a name="speech-&#x63A5;&#x53E3;" class="anchor-navigation-ex-anchor" href="#speech-&#x63A5;&#x53E3;"><i class="fa fa-link" aria-hidden="true"></i></a>Speech &#x63A5;&#x53E3;</h2>
+<h3 id="protobuf-&#x5B9A;&#x4E49;"><a name="protobuf-&#x5B9A;&#x4E49;" class="anchor-navigation-ex-anchor" href="#protobuf-&#x5B9A;&#x4E49;"><i class="fa fa-link" aria-hidden="true"></i></a>protobuf &#x5B9A;&#x4E49;</h3>
+<pre><code>
+syntax = &quot;proto3&quot;;
+
+package rokid.open;
+
+service Speech {
+  rpc auth(AuthRequest) returns (AuthResponse) { }
+
+  rpc asr(stream AsrRequest) returns (stream AsrResponse) { }
+
+  rpc tts(TtsRequest) returns (stream TtsResponse) { }
+
+  rpc speechv(stream VoiceSpeechRequest) returns (stream SpeechResponse) { }
+
+  rpc speecht(TextSpeechRequest) returns (SpeechResponse) { }
+}
+
+message AuthRequest {
+  string key              = 1;
+  string device_type_id   = 2;
+  string device_id        = 3;
+  string service          = 4;
+  string version          = 5;
+  string timestamp        = 6;
+  string sign             = 7;
+}
+
+message AuthResponse {
+  // 0: success
+  // -1: failed
+  int32 result            = 1;
+}
+
+message AsrRequest {
+  oneof request_content {
+    AsrHeader header      = 1;
+    bytes voice           = 2;
+  }
+}
+
+message AsrHeader {
+  int32 id                = 1;
+  string lang             = 2;
+  string codec            = 3;
+  // vt = voice trigger
+  string vt               = 4;
+}
+
+message AsrResponse {
+  string asr              = 1;
+}
+
+message TtsRequest {
+  TtsHeader header        = 1;
+  string text             = 2;
+}
+
+message TtsHeader {
+  int32 id              = 1;
+  string declaimer      = 2;
+  string codec          = 3;
+}
+
+message TtsResponse {
+  string text             = 1;
+  bytes voice             = 2;
+}
+
+message VoiceSpeechRequest {
+  oneof request_content {
+    SpeechHeader header = 1;
+
+    bytes voice         = 2;
+  }
+}
+
+message TextSpeechRequest {
+  SpeechHeader header = 1;
+
+  string asr          = 2;
+}
+
+message SpeechHeader {
+  int32 id = 1;
+
+  // zh
+  // en
+  string lang = 2;
+
+  // pcm
+  // opu
+  // opu2
+  string codec = 3;
+
+  // vt = voice trigger
+  string vt = 4;
+
+  // stack of applications, &quot;app1:app2:app3....&quot;
+  string stack = 5;
+
+  // json format
+  string device = 6;
+}
+
+message SpeechResponse {
+  string asr              = 1;
+
+  string nlp              = 2;
+
+  string action           = 3;
+}
+</code></pre><h3 id="authrequest"><a name="authrequest" class="anchor-navigation-ex-anchor" href="#authrequest"><i class="fa fa-link" aria-hidden="true"></i></a>AuthRequest</h3>
+<p>&#x5728;&#x540C;&#x4E00;&#x6761;&#x8FDE;&#x63A5;&#x4E0A;&#x7B2C;&#x4E00;&#x4E2A;&#x8BF7;&#x6C42;&#x5FC5;&#x987B;&#x4E3A;Auth()&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>key</td>
+<td>string</td>
+<td>&#x5F00;&#x653E;&#x63A5;&#x53E3;Key,&#x5728;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#x83B7;&#x53D6;</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>device_type_id</td>
+<td>string</td>
+<td>&#x8BBE;&#x5907;&#x7C7B;&#x578B;ID</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>device_id</td>
+<td>string</td>
+<td>&#x8BBE;&#x5907;ID</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>service</td>
+<td>string</td>
+<td>asr,tts,spch</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>version</td>
+<td>string</td>
+<td>&#x63A5;&#x53E3;&#x7248;&#x672C;&#x53F7;</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>time</td>
+<td>string</td>
+<td>unix&#x65F6;&#x95F4;&#x6233;</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+<tr>
+<td>sign</td>
+<td>string</td>
+<td>&#x7531;&#x4EE5;&#x4E0A;&#x51E0;&#x9879;+secret&#x6309;&#x7EA6;&#x5B9A;&#x7684;&#x52A0;&#x5BC6;&#x65B9;&#x5F0F;&#x751F;&#x6210;</td>
+<td>&#x65E0;&#xFF0C;&#x5FC5;&#x586B;</td>
+</tr>
+</tbody>
+</table>
+<p>sign&#x7684;&#x751F;&#x6210;&#x52A0;&#x5BC6;&#x65B9;&#x5F0F;&#xFF1A;</p>
+<p>key={key}&amp;device_type_id={device_type_id}&amp;device_id={device_id}&amp;service={service}&amp;version={version}&amp;time={time}&amp;secret={secret}</p>
+<p>&#x7684;utf8&#x5B57;&#x7B26;&#x4E32;&#x7684;md5&#x503C;</p>
+<p>&#x5176;&#x4E2D;{xxx}&#x7531;xxx&#x7684;&#x503C;&#x66FF;&#x4EE3;</p>
+<p>key&#x53CA;secret&#x7531;&#x5F00;&#x53D1;&#x65B9;&#x901A;&#x8FC7;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#x83B7;&#x53D6;&#xFF0C;&#x5E76;&#x4FDD;&#x7BA1;&#x3002;</p>
+<h3 id="authresponse"><a name="authresponse" class="anchor-navigation-ex-anchor" href="#authresponse"><i class="fa fa-link" aria-hidden="true"></i></a>AuthResponse</h3>
+<p>&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x53C2;&#x6570;&#x8BE6;&#x89C1;&#xFF1A;<a href="https://github.com/Rokid/rokid-openvoice/blob/master/sample-code-golang/src/auth/credentials.go" target="_blank">golang&#x4EE3;&#x7801;&#x4F8B;&#x5B50;</a></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>result</td>
+<td>int32</td>
+<td>&#x8BA4;&#x8BC1;&#x7ED3;&#x679C;(&#x6210;&#x529F;:0, &#x5931;&#x8D25;:-1)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="asrrequest"><a name="asrrequest" class="anchor-navigation-ex-anchor" href="#asrrequest"><i class="fa fa-link" aria-hidden="true"></i></a>AsrRequest</h3>
+<p>&#x4E00;&#x4E2A;&#x8BF7;&#x6C42;&#x4E00;&#x4E2A;AsrRequest{AsrHeader}&#x540E;&#x8DDF;&#x591A;&#x4E2A;AsrRequest{voice}&#x3002;PCM&#x4E3A;
+RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, mono 16000 Hz&#x8BED;&#x97F3;&#x3002;</p>
+<p>&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x53C2;&#x6570;&#x8BE6;&#x89C1;&#xFF1A;<a href="https://github.com/Rokid/rokid-openvoice/blob/master/sample-code-golang/src/asrclient/main.go" target="_blank">golang&#x4EE3;&#x7801;&#x4F8B;&#x5B50;</a></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>header</td>
+<td>AsrHeader</td>
+<td>&#x5E2E;&#x52A9;&#x8BC6;&#x522B;voice&#x8BED;&#x97F3;&#x6D41;&#x7684;&#x53C2;&#x6570;&#x914D;&#x7F6E;</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>voice</td>
+<td>bytes</td>
+<td>&#x9700;&#x8981;&#x8BC6;&#x522B;&#x7684;voice&#x8BED;&#x97F3;&#x6D41;</td>
+<td>&#x65E0;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="asrheader"><a name="asrheader" class="anchor-navigation-ex-anchor" href="#asrheader"><i class="fa fa-link" aria-hidden="true"></i></a>AsrHeader</h3>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>int32</td>
+<td>&#x552F;&#x4E00;&#x6807;&#x8BC6;&#xFF0C;&#x7528;&#x4E8E;&#x8DDF;&#x8E2A;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x8BF7;&#x6C42;&#xFF0C;&#x5904;&#x7406;&#x53CA;&#x54CD;&#x5E94;&#x4E8B;&#x4EF6;&#x3002;</td>
+<td>0</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>string</td>
+<td>&#x8BED;&#x97F3;&#x6D41;&#x7684;&#x8BED;&#x8A00;&#xFF0C;&#x76EE;&#x524D;&#x652F;&#x6301;zh-CN&#xFF0C;en-US&#x3002;</td>
+<td>zh-CN</td>
+</tr>
+<tr>
+<td>codec</td>
+<td>string</td>
+<td>&#x8BED;&#x97F3;&#x6D41;&#x7684;&#x7F16;&#x7801;&#xFF0C;&#x76EE;&#x524D;&#x652F;&#x6301;PCM&#xFF0C;OPU&#xFF0C;OPU2&#x3002;</td>
+<td>PCM</td>
+</tr>
+<tr>
+<td>vt</td>
+<td>string</td>
+<td>&#x6FC0;&#x6D3B;&#x8BCD;&#xFF0C;&#x5373;&#x7528;&#x4E8E;&#x5524;&#x9192;&#x8BBE;&#x5907;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x5982;&quot;&#x82E5;&#x742A;&quot;&#x3002;</td>
+<td>&#x7A7A;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="asrresponse"><a name="asrresponse" class="anchor-navigation-ex-anchor" href="#asrresponse"><i class="fa fa-link" aria-hidden="true"></i></a>AsrResponse</h3>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>asr</td>
+<td>string</td>
+<td>asr&#x5B9E;&#x65F6;&#x8BC6;&#x522B;&#x7684;&#x7ED3;&#x679C;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ttsrequest"><a name="ttsrequest" class="anchor-navigation-ex-anchor" href="#ttsrequest"><i class="fa fa-link" aria-hidden="true"></i></a>TtsRequest</h3>
+<p>&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x53C2;&#x6570;&#x8BE6;&#x89C1;&#xFF1A;<a href="https://github.com/Rokid/rokid-openvoice/blob/master/sample-code-golang/src/ttsclient/main.go" target="_blank">golang&#x4EE3;&#x7801;&#x4F8B;&#x5B50;</a></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>header</td>
+<td>TtsHeader</td>
+<td>&#x914D;&#x7F6E;&#x5982;&#x4F55;&#x5C06;text&#x8F6C;&#x6362;&#x6210;voice&#x8BED;&#x97F3;&#x6D41;</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>text</td>
+<td>string</td>
+<td>&#x9700;&#x8981;&#x8F6C;&#x6362;&#x7684;text&#x6587;&#x672C;</td>
+<td>&#x65E0;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ttsheader"><a name="ttsheader" class="anchor-navigation-ex-anchor" href="#ttsheader"><i class="fa fa-link" aria-hidden="true"></i></a>TtsHeader</h3>
+<p>PCM&#x683C;&#x5F0F;&#x4E3A; RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, mono 24000 Hz&#x8BED;&#x97F3;&#x3002;
+&#x6CE8;&#x610F;&#xFF0C;&#x8FD9;&#x91CC;&#x7684;PCM&#x4E0E;Asr&#x7684;PCM&#x683C;&#x5F0F;&#x4E0D;&#x4E00;&#x81F4;&#xFF0C;&#x56E0;&#x6B64;&#x4E0D;&#x80FD;&#x5C06;tts&#x7684;&#x8F93;&#x51FA;&#x76F4;&#x63A5;&#x4F5C;&#x4E3A;asr&#x7684;&#x8F93;&#x5165;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>int32</td>
+<td>&#x552F;&#x4E00;&#x6807;&#x8BC6;&#xFF0C;&#x7528;&#x4E8E;&#x8DDF;&#x8E2A;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x8BF7;&#x6C42;&#xFF0C;&#x5904;&#x7406;&#x53CA;&#x54CD;&#x5E94;&#x4E8B;&#x4EF6;&#x3002;</td>
+<td>0</td>
+</tr>
+<tr>
+<td>declaimer</td>
+<td>string</td>
+<td>&#x53D1;&#x97F3;&#x8005;&#xFF0C;&#x5982;&quot;zh&quot;,&quot;zhangsan&quot;,&quot;rose&quot;</td>
+<td>&quot;zh&quot;</td>
+</tr>
+<tr>
+<td>codec</td>
+<td>string</td>
+<td>&#x8BED;&#x97F3;&#x6D41;&#x7684;&#x7F16;&#x7801;&#xFF0C;&#x76EE;&#x524D;&#x652F;&#x6301;PCM&#xFF0C;OPU&#xFF0C;OPU2&#x3002;</td>
+<td>PCM</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ttsresponse"><a name="ttsresponse" class="anchor-navigation-ex-anchor" href="#ttsresponse"><i class="fa fa-link" aria-hidden="true"></i></a>TtsResponse</h3>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>text</td>
+<td>string</td>
+<td>voice&#x8BED;&#x97F3;&#x4E2D;&#x5305;&#x542B;&#x7684;&#x6587;&#x5B57;</td>
+</tr>
+<tr>
+<td>voice</td>
+<td>bytes</td>
+<td>&#x5408;&#x6210;&#x7684;voice&#x8BED;&#x97F3;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="voicespeechrequest"><a name="voicespeechrequest" class="anchor-navigation-ex-anchor" href="#voicespeechrequest"><i class="fa fa-link" aria-hidden="true"></i></a>VoiceSpeechRequest</h3>
+<p>&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x53C2;&#x6570;&#x8BE6;&#x89C1;&#xFF1A;<a href="https://github.com/Rokid/rokid-openvoice/blob/master/sample-code-golang/src/speechvclient/main.go" target="_blank">golang&#x4EE3;&#x7801;&#x4F8B;&#x5B50;</a></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>header</td>
+<td>TtsHeader</td>
+<td>&#x914D;&#x7F6E;&#x5982;&#x4F55;&#x5C06;text&#x8F6C;&#x6362;&#x6210;voice&#x8BED;&#x97F3;&#x6D41;</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>voice</td>
+<td>bytes</td>
+<td>&#x9700;&#x8981;&#x8BC6;&#x522B;&#x7684;voice&#x8BED;&#x97F3;&#x6D41;</td>
+<td>&#x65E0;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="textspeechrequest"><a name="textspeechrequest" class="anchor-navigation-ex-anchor" href="#textspeechrequest"><i class="fa fa-link" aria-hidden="true"></i></a>TextSpeechRequest</h3>
+<p>&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x53C2;&#x6570;&#x8BE6;&#x89C1;&#xFF1A;<a href="https://github.com/Rokid/rokid-openvoice/blob/master/sample-code-golang/src/speechtclient/main.go" target="_blank">golang&#x4EE3;&#x7801;&#x4F8B;&#x5B50;</a></p>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>header</td>
+<td>TtsHeader</td>
+<td>&#x914D;&#x7F6E;&#x5982;&#x4F55;&#x5C06;text&#x8F6C;&#x6362;&#x6210;voice&#x8BED;&#x97F3;&#x6D41;</td>
+<td>&#x65E0;</td>
+</tr>
+<tr>
+<td>asr</td>
+<td>string</td>
+<td>&#x9700;&#x8981;&#x8BC6;&#x522B;&#x7684;asr&#x6587;&#x672C;</td>
+<td>&#x65E0;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="speechheader"><a name="speechheader" class="anchor-navigation-ex-anchor" href="#speechheader"><i class="fa fa-link" aria-hidden="true"></i></a>SpeechHeader</h3>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>int32</td>
+<td>&#x552F;&#x4E00;&#x6807;&#x8BC6;&#xFF0C;&#x7528;&#x4E8E;&#x8DDF;&#x8E2A;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x8BF7;&#x6C42;&#xFF0C;&#x5904;&#x7406;&#x53CA;&#x54CD;&#x5E94;&#x4E8B;&#x4EF6;&#x3002;</td>
+<td>0</td>
+</tr>
+<tr>
+<td>lang</td>
+<td>string</td>
+<td>&#x8BED;&#x97F3;&#x6D41;&#x7684;&#x8BED;&#x8A00;&#xFF0C;&#x76EE;&#x524D;&#x652F;&#x6301;zh-CN&#xFF0C;en-US&#x3002;</td>
+<td>zh-CN</td>
+</tr>
+<tr>
+<td>codec</td>
+<td>string</td>
+<td>&#x8BED;&#x97F3;&#x6D41;&#x7684;&#x7F16;&#x7801;&#xFF0C;&#x76EE;&#x524D;&#x652F;&#x6301;PCM&#xFF0C;OPU&#xFF0C;OPU2&#x3002;</td>
+<td>PCM</td>
+</tr>
+<tr>
+<td>vt</td>
+<td>string</td>
+<td>&#x6FC0;&#x6D3B;&#x8BCD;&#xFF0C;&#x5373;&#x7528;&#x4E8E;&#x5524;&#x9192;&#x8BBE;&#x5907;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x5982;&quot;&#x82E5;&#x742A;&quot;&#x3002;</td>
+<td>&#x7A7A;</td>
+</tr>
+<tr>
+<td>stack</td>
+<td>string</td>
+<td>&#x8BBE;&#x5907;&#x5F53;&#x524D;&#x7684;&#x5E94;&#x7528;&#x6808;&#x4FE1;&#x606F;&#x3002;</td>
+<td>&#x7A7A;</td>
+</tr>
+<tr>
+<td>device</td>
+<td>string</td>
+<td>&#x8BBE;&#x5907;&#x4E0A;&#x7684;&#x72B6;&#x6001;&#x4FE1;&#x606F;&#xFF0C;&#x4E3A;json&#x7ED3;&#x6784;&#x3002;</td>
+<td>&#x7A7A;</td>
+</tr>
+</tbody>
+</table>
+<p>stack&#x7ED3;&#x6784;&#xFF1A;&quot;applicationId1:applicationId2:application3&quot;&#x6309;&#x7167;&#x5E94;&#x7528;&#x88AB;&#x8C03;&#x7528;&#x7684;&#x65E9;&#x665A;&#x9006;&#x5E8F;&#x6392;&#x5217;&#xFF0C;&#x5F53;&#x524D;&#x5E94;&#x7528;&#x5728;&#x7B2C;&#x4E00;&#x4E2A;&#x3002;</p>
+<h3 id="speechresponse"><a name="speechresponse" class="anchor-navigation-ex-anchor" href="#speechresponse"><i class="fa fa-link" aria-hidden="true"></i></a>SpeechResponse</h3>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>asr</td>
+<td>string</td>
+<td>asr&#x5B9E;&#x65F6;&#x8BC6;&#x522B;&#x7684;&#x7ED3;&#x679C;</td>
+</tr>
+<tr>
+<td>nlp</td>
+<td>string</td>
+<td>nlp&#x8BC6;&#x522B;&#x7684;&#x7ED3;&#x679C;</td>
+</tr>
+<tr>
+<td>action</td>
+<td>string</td>
+<td>cloud app&#x5904;&#x7406;&#x7684;&#x7ED3;&#x679C;</td>
+</tr>
+</tbody>
+</table>
+<p>asr&#xFF1A;&#x6807;&#x51C6;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x8FD4;&#x56DE;&#x5B9E;&#x65F6;&#x8BC6;&#x522B;&#x7ED3;&#x679C;&#x3002;</p>
+<p>nlp&#xFF1A;json&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x7ED3;&#x6784;&#x5982;&#x4E0B;</p>
+<pre><code>&quot;content&quot;: {
+    &quot;applicationId&quot;: &quot;com.rokid.cloud.music&quot;,
+    &quot;intent&quot;: &quot;play_random&quot;,
+    &quot;slots&quot;: {}
+}
+</code></pre><p>action&#xFF1A;json&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x7ED3;&#x6784;&#x8BE6;&#x89C1; <a href="https://github.com/Rokid/docs/blob/master/2-RokidDocument/1-SkillsKit/Cloud%20App%20Development%20Protocol_cn.md#32-action%E5%AE%9A%E4%B9%89" target="_blank">action&#x5B9A;&#x4E49;</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="rokid-interceptor.html" class="navigation navigation-prev " aria-label="Previous page: 拦截器接口文档">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="rokid-client-sdk-doc.html" class="navigation navigation-next " aria-label="Next page: Rokid 客户端 SDK 文档">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Rokid 接口文档","level":"7.3","depth":1,"next":{"title":"Rokid 客户端 SDK 文档","level":"7.4","depth":1,"path":"3-ApiReference/rokid-client-sdk-doc.md","ref":"3-ApiReference/rokid-client-sdk-doc.md","articles":[]},"previous":{"title":"拦截器接口文档","level":"7.2","depth":1,"path":"3-ApiReference/rokid-interceptor.md","ref":"3-ApiReference/rokid-interceptor.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["anchor-navigation-ex","github"],"pluginsConfig":{"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":false},"github":{"url":"https://github.com/Rokid"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"3-ApiReference/openvoice-api.md","mtime":"2017-08-24T14:05:08.753Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-24T14:06:03.849Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
